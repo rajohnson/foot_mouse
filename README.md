@@ -11,7 +11,7 @@ Foot operated buttons/scrollwheel for mouse clicks and a scrolling.
     GND         ┌───┤     Rotary      │
     ────────────┤ C │     Encoder     │
                 └───┤    (top view)   │
-                    │  	987-1188-ND   │
+                    │    987-1188-ND  │
     GP3         ┌───┤                 ├───┐
     ────────────┤ B │                 │ Sw│
                 └───┤                 ├───┘
@@ -25,7 +25,7 @@ Foot operated buttons/scrollwheel for mouse clicks and a scrolling.
            ┌───┤                          │
            │ NC│                          │
            └───┤     Momentary Switch     │
-               │    	  V-156-1C25        │
+               │        V-156-1C25        │
     GP0    ┌───┤         Z5168-ND         │
     ───────┤ NO│                          │
            └───┤                          │
