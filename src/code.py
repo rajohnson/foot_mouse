@@ -5,6 +5,9 @@ from digitalio import DigitalInOut, Direction, Pull
 led = DigitalInOut(board.LED)
 led.direction = Direction.OUTPUT
 
+switch = DigitalInOut(board.GP0)
+switch.direction = Direction.INPUT
+switch.pull = Pull.UP
+
 while True:
-    led.value = not led.value
-    time.sleep(0.5)
+    led.value = switch.value
