@@ -2,6 +2,8 @@
 
 Foot operated buttons/scrollwheel for mouse clicks and a scrolling.
 
+Using a Raspberry Pi Pico with Circuitpython (v7.3.3)
+
 
                     ┌─────────────────┐
     GP2         ┌───┤                 ├───┐
