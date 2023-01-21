@@ -16,9 +16,9 @@ mouse = Mouse(usb_hid.devices)
 
 while True:
     switch.update()
-    led.value = switch.value
+    led.value = not switch.value
 
     if switch.value:
-        mouse.press(Mouse.LEFT_BUTTON)
-    else:
         mouse.release(Mouse.LEFT_BUTTON)
+    else:
+        mouse.press(Mouse.LEFT_BUTTON)
